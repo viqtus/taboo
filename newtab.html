@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width" name="viewport"/>
+	<style>
+		body
+		{
+			background: #fff;
+			height: 100%;
+			left: 0;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+		div.content
+		{
+			align-content: center;
+			align-items: center;
+			background: rgba(0,0,0,0.05);
+			display: flex;
+			flex-wrap: wrap;
+			height: 100%;
+			justify-content: center;
+			padding: 0;
+			margin: auto;
+			width: 100%;
+		}
+
+		div.page
+		{
+			align-content: center;
+			align-items: center;
+			background: #fff;
+			box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.2);
+			color: rgba(0,0,0,0.25);
+			cursor: pointer;
+			display: flex;
+			flex-wrap: wrap;
+			font-size: 150%;
+			height: 20%;
+			justify-content: center;
+			margin: 1%;
+			overflow: hidden;
+			padding: 1%;
+			text-align: center;
+			transition-duration: 0.15s;
+			transition-property: all;
+			width: 20%;
+		}
+		div.page:hover
+		{
+			box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0 ,0.2);
+			color: rgba(0,0,0,0.4);
+		}
+
+		img
+		{
+			display: flex;
+			height: 16px;
+			margin: 2%;
+			margin-bottom: -1%;
+			width: 16px;
+		}
+	</style>
+</head>
+<body>
+	<div class="content" id="CONTENT">
+	</div>
+	<script src="newtab.js"></script>
+</body>
+</html>
